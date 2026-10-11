@@ -11,6 +11,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<StudentList />} />
+        <Route path="/Student_list_management_react" element={<StudentList />} />
         <Route path="/incharge/:event" element={<InchargeStudents />} />
       </Routes>
     </>
